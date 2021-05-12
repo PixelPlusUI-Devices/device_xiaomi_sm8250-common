@@ -154,6 +154,7 @@ PRODUCT_PACKAGES += \
     audio.primary.kona \
     audio.r_submix.default \
     audio.usb.default \
+    audio.usbv2.default
 
 PRODUCT_PACKAGES += \
     BluetoothQti \

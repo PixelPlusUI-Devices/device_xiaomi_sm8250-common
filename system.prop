@@ -61,3 +61,6 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Disable blur on app launch
 ro.launcher.blur.appLaunch=0
+
+# Notch Overlay
+ro.miui.notch=1

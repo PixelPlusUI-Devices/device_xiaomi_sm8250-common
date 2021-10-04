@@ -64,3 +64,6 @@ ro.launcher.blur.appLaunch=0
 
 # Notch Overlay
 ro.miui.notch=1
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false

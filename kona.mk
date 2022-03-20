@@ -176,7 +176,9 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libvisualizer \
-    libvolumelistener
+    libvolumelistener \
+    libadpcmdec \
+    sound_trigger.primary.kona:32
 
 # Audio configs
 PRODUCT_COPY_FILES += \

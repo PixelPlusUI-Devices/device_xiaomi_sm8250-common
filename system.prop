@@ -1,9 +1,23 @@
 # Audio
+audio.offload.buffer.size.kb=32
+audio.offload.gapless.enabled=true
+persist.audio.button_jack.profile=volume
+persist.audio.button_jack.switch=0
+persist.audio.fluence.speaker=true
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
+ro.qc.sdk.audio.fluencetype=none
+ro.qc.sdk.audio.ssr=false
+tunnel.audio.encode=true
 persist.audio.button_jack.profile=volume
 persist.audio.button_jack.switch=0
 tunnel.audio.encode=true
 
 # Bluetooth
+persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
+persist.vendor.bt.a2dp.aac_whitelist=false
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.enable.twsplussho=true
 ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
@@ -30,10 +44,20 @@ persist.vendor.dpm.feature=1
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
+# GPS
+persist.backup.ntpServer=0.pool.ntp.org
+
+# Graphics
+persist.demo.hdmirotationlock=false
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
 
 # IOP
 vendor.iop.enable_prefetch_ofr=1
@@ -41,6 +65,7 @@ vendor.iop.enable_uxe=0
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+vendor.mm.enable.qcom_parser=16777215
 
 # Netflix
 ro.netflix.bsp_rev=Q8250-19134-1
@@ -51,6 +76,10 @@ ro.vendor.qti.core_ctl_min_cpu=2
 
 # Radio
 ro.telephony.default_network=33,22
+persist.radio.snapshot_enabled=0
+persist.radio.snapshot_timer=0
+persist.rcs.otp_sms_port=0
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 
 # Netmgr
 persist.vendor.data.iwlan.enable=true

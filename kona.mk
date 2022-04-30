@@ -266,6 +266,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
     libqdMetaData \
+    libsmomo.qti \
     libsdmcore \
     libsdmutils \
     libtinyxml \
